@@ -1,0 +1,28 @@
+#cabecalho{
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#alinhamento_final{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#caixa{
+    padding: 20px;
+    background-color: darkblue;
+    color: white;
+    width: 200px;
+    border-radius: 10px;
+}
+
+#caixa div{
+    margin-bottom: 10px;
+}

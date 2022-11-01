@@ -5,24 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Questão 03</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
 </head>
 <body>
-    <div>
-        <label for="">Temperatura em Celsius:</label>
-        <input type="text" id="celsius">
-        <p id="txt_valor">Digite um Valor</p>
-
-        <div>
-            <p>Fahrenheit: </p>
-            <p id="resp_fah">-</p>
+    <header id="cabecalho">
+        <h1>Conversor de Temperatura</h1>
+    </header>
+    <div id="alinhamento_final">
+        <div id="caixa">
+            <div>
+                <label for="">Temperatura em Celsius:</label>
+                <input type="text" id="celsius">
+                <p id="txt_valor">Digite um Valor</p>
+            </div>
+    
+            <div>
+                <p>Fahrenheit: </p>
+                <p id="resp_fah">-</p>
+            </div>
+    
+            <div>
+                <p>Kelvin: </p>
+                <p id="resp_kel">-</p>
+            </div>
+    
+            <script src="script.js"></script>
         </div>
-
-        <div>
-            <p>Kelvin: </p>
-            <p id="resp_kel">-</p>
-        </div>
-
-        <script src="script.js"></script>
     </div>
 </body>
 </html>
