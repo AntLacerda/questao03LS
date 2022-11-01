@@ -18,7 +18,6 @@ const fahrenheit = (celsius) => {
     }
     else{
         let resp = (celsius * 1.8) + 32;
-        console.log(resp);
         resp_fah.innerHTML = resp;
         txt.style.display = "none";
     }
@@ -39,14 +38,12 @@ const kelvin = (celsius) => {
     }
     else{
         let resp = celsius + 273.15;
-        console.log(resp);
         resp_kel.innerHTML = resp;
         txt.style.display = "none";
     }
 }
 
 val_celsius.addEventListener('keyup', function(){
-    console.log(val_celsius.value);
     fahrenheit(Number(val_celsius.value));
     kelvin(Number(val_celsius.value));
 });
